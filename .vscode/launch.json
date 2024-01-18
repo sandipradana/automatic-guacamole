@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/cmd/main/main.go",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "APP_PORT": "8000",
+                "APP_SECRET": "SECRET",
+                "DB_HOST": "ep-frosty-shape-94847842-pooler.ap-southeast-1.aws.neon.tech",
+                "DB_USER": "sandipradana.id",
+                "DB_PASS": "eSojq8T7VzbH",
+                "DB_NAME": "cakep",
+                "DB_PORT": "5432",
+                "DB_SSL_MODE": "require",
+                "DB_TIMEZONE": "Asia/Jakarta",
+            }
+        }
+    ]
+}
